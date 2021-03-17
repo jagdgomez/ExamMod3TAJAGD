@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="41" passed="41">
+  <reporter-output>
+  </reporter-output>
+  <suite name="heroku Execution" duration-ms="52964" started-at="2021-03-08T00:02:18Z" finished-at="2021-03-08T00:03:10Z">
+    <groups>
+      <group name="create_post">
+        <method signature="PostTests.DTest_Show_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="DTest_Show_Post_success" class="PostTests"/>
+        <method signature="PostTests.ETest_Show_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="ETest_Show_Post_Fails" class="PostTests"/>
+        <method signature="PostTests.FTest_Show_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="FTest_Show_Post_FailBySecurity" class="PostTests"/>
+        <method signature="PostTests.GTest_ShowAll_Posts_Success()[pri:0, instance:PostTests@573f2bb1]" name="GTest_ShowAll_Posts_Success" class="PostTests"/>
+        <method signature="PostTests.HTest_ShowAll_Posts_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="HTest_ShowAll_Posts_FailBySecurity" class="PostTests"/>
+        <method signature="PostTests.ITest_Edit_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="ITest_Edit_Post_success" class="PostTests"/>
+        <method signature="PostTests.JTest_Edit_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="JTest_Edit_Post_Fails" class="PostTests"/>
+        <method signature="PostTests.KTest_Edit_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="KTest_Edit_Post_FailBySecurity" class="PostTests"/>
+        <method signature="PostTests.LTest_Delete_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="LTest_Delete_Post_success" class="PostTests"/>
+        <method signature="PostTests.MTest_Delete_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="MTest_Delete_Post_Fails" class="PostTests"/>
+        <method signature="PostTests.NTest_Delete_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="NTest_Delete_Post_FailBySecurity" class="PostTests"/>
+      </group> <!-- create_post -->
+      <group name="1SrcAndCreate_Post">
+        <method signature="CommentsTest.ATest_Create_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="ATest_Create_Comment_success" class="CommentsTest"/>
+        <method signature="CommentsTest.BTest_Create_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="BTest_Create_Comment_Fails" class="CommentsTest"/>
+        <method signature="CommentsTest.CTest_Create_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="CTest_Create_Comment_FailbySecurity" class="CommentsTest"/>
+        <method signature="CommentsTest.DTest_ShowComment_success()[pri:0, instance:CommentsTest@5f375618]" name="DTest_ShowComment_success" class="CommentsTest"/>
+        <method signature="CommentsTest.ETest_ShowComment_Fail()[pri:0, instance:CommentsTest@5f375618]" name="ETest_ShowComment_Fail" class="CommentsTest"/>
+        <method signature="CommentsTest.FTest_ShowComment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="FTest_ShowComment_FailbySecurity" class="CommentsTest"/>
+        <method signature="CommentsTest.GTest_ShowAllComments_success()[pri:0, instance:CommentsTest@5f375618]" name="GTest_ShowAllComments_success" class="CommentsTest"/>
+        <method signature="CommentsTest.HTest_ShowAllComments_SchemaValidation()[pri:0, instance:CommentsTest@5f375618]" name="HTest_ShowAllComments_SchemaValidation" class="CommentsTest"/>
+        <method signature="CommentsTest.ITest_ShowAllComments_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="ITest_ShowAllComments_FailbySecurity" class="CommentsTest"/>
+        <method signature="CommentsTest.JTest_Edit_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="JTest_Edit_Comment_success" class="CommentsTest"/>
+        <method signature="CommentsTest.KTest_Edit_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="KTest_Edit_Comment_Fails" class="CommentsTest"/>
+        <method signature="CommentsTest.LTest_Edit_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="LTest_Edit_Comment_FailbySecurity" class="CommentsTest"/>
+        <method signature="CommentsTest.MTest_Delete_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="MTest_Delete_Comment_success" class="CommentsTest"/>
+        <method signature="CommentsTest.NTest_Delete_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="NTest_Delete_Comment_Fails" class="CommentsTest"/>
+        <method signature="CommentsTest.OTest_Delete_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="OTest_Delete_Comment_FailbySecurity" class="CommentsTest"/>
+      </group> <!-- 1SrcAndCreate_Post -->
+      <group name="create_article">
+        <method signature="ArticleTests.CTest_Show_Article_success()[pri:0, instance:ArticleTests@1efbd816]" name="CTest_Show_Article_success" class="ArticleTests"/>
+        <method signature="ArticleTests.DTest_Show_All_Articles_success()[pri:0, instance:ArticleTests@1efbd816]" name="DTest_Show_All_Articles_success" class="ArticleTests"/>
+        <method signature="ArticleTests.ETest_Articles_Schema()[pri:0, instance:ArticleTests@1efbd816]" name="ETest_Articles_Schema" class="ArticleTests"/>
+        <method signature="ArticleTests.ZTest_Delete_Article_success()[pri:0, instance:ArticleTests@1efbd816]" name="ZTest_Delete_Article_success" class="ArticleTests"/>
+      </group> <!-- create_article -->
+      <group name="2SrcAndCreate_Comment">
+        <method signature="CommentsTest.DTest_ShowComment_success()[pri:0, instance:CommentsTest@5f375618]" name="DTest_ShowComment_success" class="CommentsTest"/>
+        <method signature="CommentsTest.ETest_ShowComment_Fail()[pri:0, instance:CommentsTest@5f375618]" name="ETest_ShowComment_Fail" class="CommentsTest"/>
+        <method signature="CommentsTest.FTest_ShowComment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="FTest_ShowComment_FailbySecurity" class="CommentsTest"/>
+        <method signature="CommentsTest.JTest_Edit_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="JTest_Edit_Comment_success" class="CommentsTest"/>
+        <method signature="CommentsTest.KTest_Edit_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="KTest_Edit_Comment_Fails" class="CommentsTest"/>
+        <method signature="CommentsTest.LTest_Edit_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="LTest_Edit_Comment_FailbySecurity" class="CommentsTest"/>
+      </group> <!-- 2SrcAndCreate_Comment -->
+    </groups>
+    <test name="UserTests" duration-ms="8343" started-at="2021-03-08T00:02:18Z" finished-at="2021-03-08T00:02:26Z">
+      <class name="UserTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:UserTests@6537cf78]" name="setup" is-config="true" duration-ms="746" started-at="2021-03-08T00:02:18Z" finished-at="2021-03-08T00:02:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ATest_Create_User_Successful()[pri:0, instance:UserTests@6537cf78]" name="ATest_Create_User_Successful" duration-ms="4820" started-at="2021-03-08T00:02:18Z" finished-at="2021-03-08T00:02:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATest_Create_User_Successful -->
+        <test-method status="PASS" signature="BNegativeTest_Creating_User_Already_Exist()[pri:0, instance:UserTests@6537cf78]" name="BNegativeTest_Creating_User_Already_Exist" duration-ms="624" started-at="2021-03-08T00:02:23Z" finished-at="2021-03-08T00:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BNegativeTest_Creating_User_Already_Exist -->
+        <test-method status="PASS" signature="CTest_login_User_Successful()[pri:0, instance:UserTests@6537cf78]" name="CTest_login_User_Successful" duration-ms="780" started-at="2021-03-08T00:02:24Z" finished-at="2021-03-08T00:02:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTest_login_User_Successful -->
+        <test-method status="PASS" signature="DTest_logOut_User_Successful()[pri:0, instance:UserTests@6537cf78]" name="DTest_logOut_User_Successful" duration-ms="1346" started-at="2021-03-08T00:02:25Z" finished-at="2021-03-08T00:02:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DTest_logOut_User_Successful -->
+      </class> <!-- UserTests -->
+    </test> <!-- UserTests -->
+    <test name="MiscelaneosTest" duration-ms="1613" started-at="2021-03-08T00:02:26Z" finished-at="2021-03-08T00:02:28Z">
+      <class name="MiscTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:MiscTests@7946e1f4]" name="setup" is-config="true" duration-ms="1" started-at="2021-03-08T00:02:26Z" finished-at="2021-03-08T00:02:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ATest_PING_ENDPOINT()[pri:0, instance:MiscTests@7946e1f4]" name="ATest_PING_ENDPOINT" duration-ms="733" started-at="2021-03-08T00:02:26Z" finished-at="2021-03-08T00:02:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATest_PING_ENDPOINT -->
+        <test-method status="PASS" signature="BTest_HomePage_Response()[pri:0, instance:MiscTests@7946e1f4]" name="BTest_HomePage_Response" duration-ms="878" started-at="2021-03-08T00:02:27Z" finished-at="2021-03-08T00:02:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest_HomePage_Response -->
+      </class> <!-- MiscTests -->
+    </test> <!-- MiscelaneosTest -->
+    <test name="Articles Tests" duration-ms="10818" started-at="2021-03-08T00:02:28Z" finished-at="2021-03-08T00:02:38Z">
+      <class name="ArticleTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:ArticleTests@1efbd816]" name="setup" is-config="true" duration-ms="0" started-at="2021-03-08T00:02:28Z" finished-at="2021-03-08T00:02:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ATest_Create_Article_success()[pri:0, instance:ArticleTests@1efbd816]" name="ATest_Create_Article_success" duration-ms="1565" started-at="2021-03-08T00:02:28Z" finished-at="2021-03-08T00:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATest_Create_Article_success -->
+        <test-method status="PASS" signature="BTest_InvalidToken_Cant_Create_New_Article()[pri:0, instance:ArticleTests@1efbd816]" name="BTest_InvalidToken_Cant_Create_New_Article" duration-ms="574" started-at="2021-03-08T00:02:29Z" finished-at="2021-03-08T00:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest_InvalidToken_Cant_Create_New_Article -->
+        <test-method status="PASS" signature="createArticle()[pri:0, instance:ArticleTests@1efbd816]" name="createArticle" is-config="true" duration-ms="1438" started-at="2021-03-08T00:02:30Z" finished-at="2021-03-08T00:02:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createArticle -->
+        <test-method status="PASS" signature="CTest_Show_Article_success()[pri:0, instance:ArticleTests@1efbd816]" name="CTest_Show_Article_success" duration-ms="1471" started-at="2021-03-08T00:02:31Z" finished-at="2021-03-08T00:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTest_Show_Article_success -->
+        <test-method status="PASS" signature="DTest_Show_All_Articles_success()[pri:0, instance:ArticleTests@1efbd816]" name="DTest_Show_All_Articles_success" duration-ms="1657" started-at="2021-03-08T00:02:33Z" finished-at="2021-03-08T00:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DTest_Show_All_Articles_success -->
+        <test-method status="PASS" signature="ETest_Articles_Schema()[pri:0, instance:ArticleTests@1efbd816]" name="ETest_Articles_Schema" duration-ms="2657" started-at="2021-03-08T00:02:34Z" finished-at="2021-03-08T00:02:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ETest_Articles_Schema -->
+        <test-method status="PASS" signature="ZTest_Delete_Article_success()[pri:0, instance:ArticleTests@1efbd816]" name="ZTest_Delete_Article_success" duration-ms="1452" started-at="2021-03-08T00:02:37Z" finished-at="2021-03-08T00:02:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ZTest_Delete_Article_success -->
+      </class> <!-- ArticleTests -->
+    </test> <!-- Articles Tests -->
+    <test name="Posts Tests" duration-ms="17254" started-at="2021-03-08T00:02:38Z" finished-at="2021-03-08T00:02:56Z">
+      <class name="PostTests">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:PostTests@573f2bb1]" name="setup" is-config="true" duration-ms="0" started-at="2021-03-08T00:02:38Z" finished-at="2021-03-08T00:02:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="ATest_Create_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="ATest_Create_Post_success" duration-ms="1274" started-at="2021-03-08T00:02:38Z" finished-at="2021-03-08T00:02:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATest_Create_Post_success -->
+        <test-method status="PASS" signature="BTest_Create_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="BTest_Create_Post_Fails" duration-ms="1421" started-at="2021-03-08T00:02:40Z" finished-at="2021-03-08T00:02:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest_Create_Post_Fails -->
+        <test-method status="PASS" signature="CTest_Create_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="CTest_Create_Post_FailBySecurity" duration-ms="586" started-at="2021-03-08T00:02:41Z" finished-at="2021-03-08T00:02:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTest_Create_Post_FailBySecurity -->
+        <test-method status="PASS" signature="createPost()[pri:0, instance:PostTests@573f2bb1]" name="createPost" is-config="true" duration-ms="1584" started-at="2021-03-08T00:02:42Z" finished-at="2021-03-08T00:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPost -->
+        <test-method status="PASS" signature="DTest_Show_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="DTest_Show_Post_success" duration-ms="1680" started-at="2021-03-08T00:02:43Z" finished-at="2021-03-08T00:02:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DTest_Show_Post_success -->
+        <test-method status="PASS" signature="ETest_Show_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="ETest_Show_Post_Fails" duration-ms="1426" started-at="2021-03-08T00:02:45Z" finished-at="2021-03-08T00:02:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ETest_Show_Post_Fails -->
+        <test-method status="PASS" signature="FTest_Show_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="FTest_Show_Post_FailBySecurity" duration-ms="624" started-at="2021-03-08T00:02:46Z" finished-at="2021-03-08T00:02:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FTest_Show_Post_FailBySecurity -->
+        <test-method status="PASS" signature="GTest_ShowAll_Posts_Success()[pri:0, instance:PostTests@573f2bb1]" name="GTest_ShowAll_Posts_Success" duration-ms="1492" started-at="2021-03-08T00:02:47Z" finished-at="2021-03-08T00:02:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GTest_ShowAll_Posts_Success -->
+        <test-method status="PASS" signature="HTest_ShowAll_Posts_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="HTest_ShowAll_Posts_FailBySecurity" duration-ms="558" started-at="2021-03-08T00:02:48Z" finished-at="2021-03-08T00:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HTest_ShowAll_Posts_FailBySecurity -->
+        <test-method status="PASS" signature="ITest_Edit_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="ITest_Edit_Post_success" duration-ms="1272" started-at="2021-03-08T00:02:49Z" finished-at="2021-03-08T00:02:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ITest_Edit_Post_success -->
+        <test-method status="PASS" signature="JTest_Edit_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="JTest_Edit_Post_Fails" duration-ms="1287" started-at="2021-03-08T00:02:50Z" finished-at="2021-03-08T00:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JTest_Edit_Post_Fails -->
+        <test-method status="PASS" signature="KTest_Edit_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="KTest_Edit_Post_FailBySecurity" duration-ms="597" started-at="2021-03-08T00:02:52Z" finished-at="2021-03-08T00:02:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KTest_Edit_Post_FailBySecurity -->
+        <test-method status="PASS" signature="LTest_Delete_Post_success()[pri:0, instance:PostTests@573f2bb1]" name="LTest_Delete_Post_success" duration-ms="1452" started-at="2021-03-08T00:02:52Z" finished-at="2021-03-08T00:02:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTest_Delete_Post_success -->
+        <test-method status="PASS" signature="MTest_Delete_Post_Fails()[pri:0, instance:PostTests@573f2bb1]" name="MTest_Delete_Post_Fails" duration-ms="1371" started-at="2021-03-08T00:02:54Z" finished-at="2021-03-08T00:02:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MTest_Delete_Post_Fails -->
+        <test-method status="PASS" signature="NTest_Delete_Post_FailBySecurity()[pri:0, instance:PostTests@573f2bb1]" name="NTest_Delete_Post_FailBySecurity" duration-ms="619" started-at="2021-03-08T00:02:55Z" finished-at="2021-03-08T00:02:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NTest_Delete_Post_FailBySecurity -->
+      </class> <!-- PostTests -->
+    </test> <!-- Posts Tests -->
+    <test name="Comments Tests" duration-ms="14886" started-at="2021-03-08T00:02:56Z" finished-at="2021-03-08T00:03:10Z">
+      <class name="CommentsTest">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:CommentsTest@5f375618]" name="setup" is-config="true" duration-ms="1" started-at="2021-03-08T00:02:56Z" finished-at="2021-03-08T00:02:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://api-coffee-testing.herokuapp.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="SearchOrCreatePost()[pri:0, instance:CommentsTest@5f375618]" name="SearchOrCreatePost" is-config="true" duration-ms="1336" started-at="2021-03-08T00:02:56Z" finished-at="2021-03-08T00:02:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOrCreatePost -->
+        <test-method status="PASS" signature="ATest_Create_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="ATest_Create_Comment_success" duration-ms="704" started-at="2021-03-08T00:02:57Z" finished-at="2021-03-08T00:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATest_Create_Comment_success -->
+        <test-method status="PASS" signature="BTest_Create_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="BTest_Create_Comment_Fails" duration-ms="663" started-at="2021-03-08T00:02:58Z" finished-at="2021-03-08T00:02:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest_Create_Comment_Fails -->
+        <test-method status="PASS" signature="CTest_Create_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="CTest_Create_Comment_FailbySecurity" duration-ms="699" started-at="2021-03-08T00:02:58Z" finished-at="2021-03-08T00:02:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CTest_Create_Comment_FailbySecurity -->
+        <test-method status="PASS" signature="SearchOrCreateComment()[pri:0, instance:CommentsTest@5f375618]" name="SearchOrCreateComment" is-config="true" duration-ms="658" started-at="2021-03-08T00:02:59Z" finished-at="2021-03-08T00:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchOrCreateComment -->
+        <test-method status="PASS" signature="DTest_ShowComment_success()[pri:0, instance:CommentsTest@5f375618]" name="DTest_ShowComment_success" duration-ms="711" started-at="2021-03-08T00:03:00Z" finished-at="2021-03-08T00:03:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DTest_ShowComment_success -->
+        <test-method status="PASS" signature="ETest_ShowComment_Fail()[pri:0, instance:CommentsTest@5f375618]" name="ETest_ShowComment_Fail" duration-ms="698" started-at="2021-03-08T00:03:00Z" finished-at="2021-03-08T00:03:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ETest_ShowComment_Fail -->
+        <test-method status="PASS" signature="FTest_ShowComment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="FTest_ShowComment_FailbySecurity" duration-ms="626" started-at="2021-03-08T00:03:01Z" finished-at="2021-03-08T00:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FTest_ShowComment_FailbySecurity -->
+        <test-method status="PASS" signature="GTest_ShowAllComments_success()[pri:0, instance:CommentsTest@5f375618]" name="GTest_ShowAllComments_success" duration-ms="741" started-at="2021-03-08T00:03:02Z" finished-at="2021-03-08T00:03:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GTest_ShowAllComments_success -->
+        <test-method status="PASS" signature="HTest_ShowAllComments_SchemaValidation()[pri:0, instance:CommentsTest@5f375618]" name="HTest_ShowAllComments_SchemaValidation" duration-ms="881" started-at="2021-03-08T00:03:02Z" finished-at="2021-03-08T00:03:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HTest_ShowAllComments_SchemaValidation -->
+        <test-method status="PASS" signature="ITest_ShowAllComments_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="ITest_ShowAllComments_FailbySecurity" duration-ms="721" started-at="2021-03-08T00:03:03Z" finished-at="2021-03-08T00:03:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ITest_ShowAllComments_FailbySecurity -->
+        <test-method status="PASS" signature="JTest_Edit_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="JTest_Edit_Comment_success" duration-ms="702" started-at="2021-03-08T00:03:04Z" finished-at="2021-03-08T00:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JTest_Edit_Comment_success -->
+        <test-method status="PASS" signature="KTest_Edit_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="KTest_Edit_Comment_Fails" duration-ms="708" started-at="2021-03-08T00:03:05Z" finished-at="2021-03-08T00:03:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KTest_Edit_Comment_Fails -->
+        <test-method status="PASS" signature="LTest_Edit_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="LTest_Edit_Comment_FailbySecurity" duration-ms="653" started-at="2021-03-08T00:03:05Z" finished-at="2021-03-08T00:03:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LTest_Edit_Comment_FailbySecurity -->
+        <test-method status="PASS" signature="MTest_Delete_Comment_success()[pri:0, instance:CommentsTest@5f375618]" name="MTest_Delete_Comment_success" duration-ms="1515" started-at="2021-03-08T00:03:06Z" finished-at="2021-03-08T00:03:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MTest_Delete_Comment_success -->
+        <test-method status="PASS" signature="NTest_Delete_Comment_Fails()[pri:0, instance:CommentsTest@5f375618]" name="NTest_Delete_Comment_Fails" duration-ms="1499" started-at="2021-03-08T00:03:08Z" finished-at="2021-03-08T00:03:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NTest_Delete_Comment_Fails -->
+        <test-method status="PASS" signature="OTest_Delete_Comment_FailbySecurity()[pri:0, instance:CommentsTest@5f375618]" name="OTest_Delete_Comment_FailbySecurity" duration-ms="1360" started-at="2021-03-08T00:03:09Z" finished-at="2021-03-08T00:03:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OTest_Delete_Comment_FailbySecurity -->
+      </class> <!-- CommentsTest -->
+    </test> <!-- Comments Tests -->
+  </suite> <!-- heroku Execution -->
+</testng-results>
